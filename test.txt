@@ -1,0 +1,34 @@
+origin is (380,240);  
+
+scale is (80,80/3);    
+
+rot is pi/2+0*pi/3;     
+
+for T from 0 to 2*pi step pi/50 draw(cos(T),sin(T)); --测试
+
+rot is pi/2+2*pi/3;      --测试
+
+for t from 0 to 2*pi step pi/50 draw(cos(T),sin(T)); --测试场
+
+rot is pi/2+4*pi/3;      --测试
+
+for t from 0 to 2*pi step pi/50 draw(cos(T),sin(T)); --测试
+
+
+
+origin is (20,200);
+
+scale is (40,40);
+
+rot is 0;
+
+for t from 0 to 2*pi+pi/50 step pi/50 draw(t,sin(t));
+
+origin is (20,240);
+
+for t from 0 to 2*pi+pi/50 step pi/50 draw(t,sin(t));
+
+origin is (20,280);
+
+for t from 0 to 2*pi+pi/50 step pi/50 draw(t,sin(t));
+
